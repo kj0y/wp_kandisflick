@@ -157,12 +157,12 @@ textarea,
 
 ::-moz-selection {
 	background-color: #000;
-	color: #fff;
+	color: #e8f1f8;
 }
 
 ::selection {
 	background-color: #000;
-	color: #fff;
+	color: #e8f1f8;
 }
 
 a {
@@ -351,7 +351,7 @@ img {
 input,
 select,
 textarea {
-	background-color: #fff;
+	background-color: #e8f1f8;
 	border: 1px solid #ddd;
 	color: #666;
 	font-family: 'Roboto', sans-serif;
@@ -385,7 +385,7 @@ input[type="submit"],
 .button {
 	background-color: #000;
 	border: none;
-	color: #fff;
+	color: #e8f1f8;
 	cursor: pointer;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 300;
@@ -401,7 +401,7 @@ input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover {
 	background-color: #1dbec0;
-	color: #fff;
+	color: #e8f1f8;
 }
 
 .button {
@@ -490,7 +490,7 @@ Structure and Layout
 /* Content */
 
 .content {
-	background-color: #fff;
+	background-color: #e8f1f8;
 	float: left;
 	padding: 48px 60px 60px;
 	width: 760px;
@@ -753,14 +753,17 @@ img.alignright,
 }
 
 .widgettitle {
-	color: #cdf593;
+	color: #9A12B3;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #9A12B3;
 	font-size: 16px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
 .site-header .widgettitle {
-	color: #fff;
+	color: #e8f1f8;
 }
 
 .archive-title {
@@ -801,7 +804,7 @@ Widgets
 
 .featured-content .entry-header .entry-meta,
 .featured-content .entry-header .entry-meta a:hover {
-	color: #fff;
+	color: #e8f1f8;
 }
 
 
@@ -813,7 +816,7 @@ Plugins
 --------------------------------------------- */
 
 .enews-widget {
-	color: #fff;
+	color: #e8f1f8;
 }
 
 .enews-widget input {
@@ -828,8 +831,8 @@ Plugins
 }
 
 .enews-widget input[type="submit"] {
-	background-color: #1dbec0;
-	color: #fff;
+	background-color: #000;
+	color: #e8f1f8;
 	margin: 0;
 	padding: 16px 24px 15px;
 	width: auto;
@@ -876,7 +879,7 @@ Site Header
 
 .site-header a,
 .site-header a:hover {
-	color: #fff;
+	color: #e8f1f8;
 	text-decoration: none;
 }
 
@@ -900,7 +903,7 @@ Site Header
 
 .site-title a,
 .site-title a:hover {
-	color: #fff;
+	color: #e8f1f8;
 	text-decoration: none;
 }
 
@@ -967,7 +970,7 @@ Site Navigation
 
 .genesis-nav-menu a {
 	background-color: none;
-	color: #fff;
+	color: #e8f1f8;
 	display: block;
 	padding: 12px;
 	text-align: center;
@@ -976,7 +979,7 @@ Site Navigation
 
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a {
-	background-color: #fff;
+	background-color: #e8f1f8;
 	color: #000;
 }
 
@@ -1006,7 +1009,7 @@ Site Navigation
 }
 
 .genesis-nav-menu .sub-menu a:hover {
-	color: #fff;
+	color: #e8f1f8;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
@@ -1032,7 +1035,7 @@ Site Navigation
 
 .responsive-menu-icon::before {
 	content: "\f333";
-	color: #fff;
+	color: #e8f1f8;
 	display: block;
 	font: normal 20px/1 'dashicons';
 	margin: 0 auto;
@@ -1130,7 +1133,7 @@ Content Area
 
 .after-entry {
 	background-color: #000;
-	color: #fff;
+	color: #e8f1f8;
 	margin-bottom: 60px;
 	padding: 40px 60px 10px;
 	text-align: center;
@@ -1150,7 +1153,7 @@ Content Area
 }
 
 .after-entry a {
-	color: #fff;
+	color: #e8f1f8;
 }
 
 .after-entry ul > li {
@@ -1175,7 +1178,7 @@ Content Area
 
 .archive-pagination li a {
 	background-color: #000;
-	color: #fff;
+	color: #e8f1f8;
 	cursor: pointer;
 	display: inline-block;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -1225,7 +1228,7 @@ Content Area
 
 li.comment {
 	background-color: #f5f5f5;
-	border: 2px solid #fff; 
+	border: 2px solid #e8f1f8; 
 	border-right: none; 
 }
 
@@ -1244,13 +1247,13 @@ Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
 .sidebar {
-	color: #fff;
+	color: #e8f1f8;
 	display: inline;
 	padding-top: 60px;
 }
 
 .sidebar a {
-	color: #fff;
+	color: #e8f1f8;
 }
 
 .sidebar a:hover {
@@ -1311,7 +1314,7 @@ Site Footer
 }
 
 .site-footer a:hover {
-	color: #fff;
+	color: #e8f1f8;
 }
 
 .site-footer p {
@@ -1473,7 +1476,7 @@ Media Queries
 	
 	.genesis-nav-menu.responsive-menu {
 		border: none;
-		color: #fff;
+		color: #e8f1f8;
 		margin: 0;
 	}
 	
@@ -1491,7 +1494,7 @@ Media Queries
 	.genesis-nav-menu.responsive-menu .current-menu-item > a {
 		background: none;
 		border: none;
-		color: #fff;
+		color: #e8f1f8;
 		display: block;
 		line-height: 1;
 		padding: 16px 20px;
